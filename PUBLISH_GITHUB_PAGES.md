@@ -25,9 +25,10 @@ git push -u origin main
 ## 3. GitHub Pages aktivieren
 
 - GitHub Repository > Settings > Pages
-- Unter Source: `GitHub Actions` auswaehlen
+- Unter Build and deployment bei Source: `Deploy from a branch`
+- Branch: `gh-pages` und Folder: `/ (root)`
 
-Danach deployt das Projekt automatisch bei jedem Push auf `main`.
+Danach deployt das Projekt automatisch bei jedem Push auf `main` auf den Branch `gh-pages`.
 
 ## 4. Demo-URL
 

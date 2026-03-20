@@ -34,7 +34,8 @@ Kurzanleitung:
 
 1. Public Repository auf GitHub erstellen
 2. Projekt pushen
-3. In GitHub unter Settings > Pages als Source `GitHub Actions` waehlen
+3. In GitHub unter Settings > Pages als Source `Deploy from a branch` waehlen
+4. Branch `gh-pages` und Folder `/ (root)` auswaehlen
 
 Danach ist die Seite unter einer URL wie
 `https://DEIN-USERNAME.github.io/eventlocation-mvp/` erreichbar.

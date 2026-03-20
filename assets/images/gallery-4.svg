@@ -1,15 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
-  <rect width="800" height="520" fill="#fbf1ea"/>
-  <rect x="40" y="42" width="720" height="436" rx="24" fill="#fff" stroke="#ead7c9"/>
-  <path d="M180 280 Q400 60 620 280" fill="none" stroke="#bc7d72" stroke-width="16" stroke-linecap="round"/>
-  <circle cx="235" cy="230" r="20" fill="#efb38b"/>
-  <circle cx="400" cy="160" r="20" fill="#e68e7d"/>
-  <circle cx="565" cy="230" r="20" fill="#efb38b"/>
-  <rect x="145" y="320" width="510" height="120" rx="16" fill="#fff7ed" stroke="#ead7c9"/>
-  <circle cx="205" cy="380" r="24" fill="#fdf2e6" stroke="#d9bda3"/>
-  <circle cx="285" cy="380" r="24" fill="#fdf2e6" stroke="#d9bda3"/>
-  <circle cx="365" cy="380" r="24" fill="#fdf2e6" stroke="#d9bda3"/>
-  <circle cx="445" cy="380" r="24" fill="#fdf2e6" stroke="#d9bda3"/>
-  <circle cx="525" cy="380" r="24" fill="#fdf2e6" stroke="#d9bda3"/>
-  <circle cx="605" cy="380" r="24" fill="#fdf2e6" stroke="#d9bda3"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img">
+  <title>Wedding table decoration detail</title>
+  <defs>
+    <linearGradient id="g4bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f9f0e8"/><stop offset="1" stop-color="#f0e4d4"/></linearGradient>
+    <radialGradient id="g4glow" cx="50%" cy="40%" r="60%"><stop offset="0" stop-color="#fff8e8" stop-opacity="0.8"/><stop offset="1" stop-color="#ffe0b0" stop-opacity="0"/></radialGradient>
+    <filter id="g4sh"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#c0a070" flood-opacity="0.3"/></filter>
+    <filter id="g4gf"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <rect width="800" height="520" fill="url(#g4bg)"/>
+  <!-- Soft background glow -->
+  <ellipse cx="400" cy="260" rx="380" ry="260" fill="url(#g4glow)"/>
+  <!-- Table surface (white linen) -->
+  <rect x="60" y="200" width="680" height="320" rx="10" fill="#fefcfa" stroke="#ecdccc" stroke-width="2" filter="url(#g4sh)"/>
+  <!-- Linen texture subtle folds -->
+  <line x1="60" y1="280" x2="740" y2="280" stroke="#f4e8da" stroke-width="1.5" opacity="0.6"/>
+  <line x1="60" y1="360" x2="740" y2="360" stroke="#f4e8da" stroke-width="1.5" opacity="0.6"/>
+  <line x1="60" y1="440" x2="740" y2="440" stroke="#f4e8da" stroke-width="1.5" opacity="0.6"/>
+  <!-- Flower table runner down center -->
+  <rect x="330" y="200" width="140" height="320" rx="5" fill="#f9f0e8" opacity="0.5"/>
+  <!-- Tall candelabra center -->
+  <rect x="394" y="108" width="12" height="100" rx="3" fill="#d4a840"/>
+  <!-- Candelabra base -->
+  <ellipse cx="400" cy="208" rx="28" ry="8" fill="#c89030" stroke="#b07820" stroke-width="1.5"/>
+  <rect x="392" y="196" width="16" height="18" rx="4" fill="#d0a038"/>
+  <!-- Candelabra arms -->
+  <line x1="400" y1="148" x2="355" y2="168" stroke="#d4a840" stroke-width="3"/>
+  <line x1="400" y1="148" x2="445" y2="168" stroke="#d4a840" stroke-width="3"/>
+  <line x1="400" y1="138" x2="330" y2="162" stroke="#d4a840" stroke-width="2.5"/>
+  <line x1="400" y1="138" x2="470" y2="162" stroke="#d4a840" stroke-width="2.5"/>
+  <!-- Candles on arms -->
+  <rect x="351" y="148" width="7" height="24" rx="3" fill="#fdf5e0" stroke="#e8d8a8" stroke-width="1"/>
+  <ellipse cx="354" cy="148" rx="4" ry="3" fill="#ffb020"/>
+  <rect x="441" y="148" width="7" height="24" rx="3" fill="#fdf5e0" stroke="#e8d8a8" stroke-width="1"/>
+  <ellipse cx="444" cy="148" rx="4" ry="3" fill="#ffb020"/>
+  <rect x="326" y="142" width="7" height="24" rx="3" fill="#fdf5e0" stroke="#e8d8a8" stroke-width="1"/>
+  <ellipse cx="329" cy="142" rx="4" ry="3" fill="#ffb020"/>
+  <rect x="466" y="142" width="7" height="24" rx="3" fill="#fdf5e0" stroke="#e8d8a8" stroke-width="1"/>
+  <ellipse cx="469" cy="142" rx="4" ry="3" fill="#ffb020"/>
+  <!-- Glow from candles -->
+  <ellipse cx="400" cy="200" rx="140" ry="100" fill="#ffe8a0" opacity="0.12" filter="url(#g4gf)"/>
+  <!-- Floral arrangement (roses, baby's breath, greenery) -->
+  <!-- Large roses -->
+  <circle cx="400" cy="222" r="18" fill="#e85070"/><circle cx="380" cy="238" r="15" fill="#f06880"/><circle cx="420" cy="238" r="15" fill="#f06880"/>
+  <circle cx="363" cy="220" r="14" fill="#cc3858"/><circle cx="437" cy="220" r="14" fill="#cc3858"/>
+  <circle cx="372" cy="252" r="13" fill="#e87090"/><circle cx="428" cy="252" r="13" fill="#e87090"/>
+  <!-- Rose petals detail -->
+  <circle cx="400" cy="216" r="8" fill="#ff9090" opacity="0.7"/>
+  <circle cx="388" cy="224" r="6" fill="#ff9090" opacity="0.6"/>
+  <circle cx="412" cy="224" r="6" fill="#ff9090" opacity="0.6"/>
+  <!-- White flowers (baby's breath) -->
+  <circle cx="345" cy="234" r="7" fill="#fff"/><circle cx="350" cy="245" r="6" fill="#fff"/><circle cx="338" cy="248" r="5" fill="#fff"/>
+  <circle cx="455" cy="234" r="7" fill="#fff"/><circle cx="450" cy="245" r="6" fill="#fff"/><circle cx="462" cy="248" r="5" fill="#fff"/>
+  <circle cx="360" cy="265" r="6" fill="#fff"/><circle cx="440" cy="265" r="6" fill="#fff"/>
+  <!-- Greenery leaves -->
+  <ellipse cx="340" cy="220" rx="20" ry="9" fill="#4a8838" transform="rotate(-40,340,220)" opacity="0.9"/>
+  <ellipse cx="460" cy="220" rx="20" ry="9" fill="#4a8838" transform="rotate(40,460,220)" opacity="0.9"/>
+  <ellipse cx="348" cy="260" rx="18" ry="8" fill="#5a9848" transform="rotate(-20,348,260)" opacity="0.8"/>
+  <ellipse cx="452" cy="260" rx="18" ry="8" fill="#5a9848" transform="rotate(20,452,260)" opacity="0.8"/>
+  <ellipse cx="390" cy="272" rx="16" ry="7" fill="#4a8838" transform="rotate(-10,390,272)" opacity="0.8"/>
+  <ellipse cx="410" cy="272" rx="16" ry="7" fill="#4a8838" transform="rotate(10,410,272)" opacity="0.8"/>
+  <!-- Plates left -->
+  <circle cx="185" cy="330" r="46" fill="#fefcf8" stroke="#e4d4c4" stroke-width="2.5"/>
+  <circle cx="185" cy="330" r="36" fill="none" stroke="#d8c8b4" stroke-width="1.5"/>
+  <circle cx="185" cy="330" r="16" fill="#f5ece0" stroke="#c8b8a4" stroke-width="1"/>
+  <!-- Fork and knife -->
+  <rect x="136" y="311" width="5" height="36" rx="2.5" fill="#c8c0b0"/>
+  <line x1="131" y1="313" x2="131" y2="325" stroke="#c8c0b0" stroke-width="1.5"/>
+  <line x1="127" y1="313" x2="127" y2="325" stroke="#c8c0b0" stroke-width="1.5"/>
+  <rect x="233" y="311" width="5" height="36" rx="2.5" fill="#c8c0b0"/>
+  <!-- Wine glass -->
+  <path d="M200 316 Q204 334 200 342 L196 350 L204 350 L200 342" fill="none" stroke="#d0c8b8" stroke-width="1.8"/>
+  <!-- Napkin fold (bishop's hat) -->
+  <polygon points="185,285 168,310 202,310" fill="#f5eee0" stroke="#e0d4c0" stroke-width="1"/>
+  <rect x="177" y="306" width="16" height="8" rx="3" fill="#f5eee0" stroke="#e0d4c0" stroke-width="0.5"/>
+  <!-- Plates right -->
+  <circle cx="615" cy="330" r="46" fill="#fefcf8" stroke="#e4d4c4" stroke-width="2.5"/>
+  <circle cx="615" cy="330" r="36" fill="none" stroke="#d8c8b4" stroke-width="1.5"/>
+  <circle cx="615" cy="330" r="16" fill="#f5ece0" stroke="#c8b8a4" stroke-width="1"/>
+  <rect x="566" y="311" width="5" height="36" rx="2.5" fill="#c8c0b0"/>
+  <line x1="561" y1="313" x2="561" y2="325" stroke="#c8c0b0" stroke-width="1.5"/>
+  <line x1="557" y1="313" x2="557" y2="325" stroke="#c8c0b0" stroke-width="1.5"/>
+  <rect x="663" y="311" width="5" height="36" rx="2.5" fill="#c8c0b0"/>
+  <path d="M630 316 Q634 334 630 342 L626 350 L634 350 L630 342" fill="none" stroke="#d0c8b8" stroke-width="1.8"/>
+  <polygon points="615,285 598,310 632,310" fill="#f5eee0" stroke="#e0d4c0" stroke-width="1"/>
+  <rect x="607" y="306" width="16" height="8" rx="3" fill="#f5eee0" stroke="#e0d4c0" stroke-width="0.5"/>
+  <!-- Small place card -->
+  <rect x="170" y="290" width="30" height="18" rx="3" fill="#fdf9f0" stroke="#e0d0bc" stroke-width="1"/>
+  <rect x="600" y="290" width="30" height="18" rx="3" fill="#fdf9f0" stroke="#e0d0bc" stroke-width="1"/>
 </svg>

@@ -1,11 +1,139 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
-  <rect width="800" height="520" fill="#121622"/>
-  <rect x="44" y="42" width="712" height="436" rx="24" fill="#1b2235" stroke="#374666"/>
-  <rect x="90" y="85" width="620" height="190" rx="14" fill="#222d47"/>
-  <polygon points="100,120 280,85 280,260" fill="#ff6f50" opacity="0.55"/>
-  <polygon points="700,125 520,85 520,260" fill="#58ddce" opacity="0.5"/>
-  <rect x="280" y="302" width="240" height="90" rx="14" fill="#0f1627" stroke="#4e6493"/>
-  <rect x="318" y="334" width="74" height="15" rx="7" fill="#ef6e77"/>
-  <rect x="408" y="334" width="74" height="15" rx="7" fill="#5be0d2"/>
-  <rect x="130" y="414" width="540" height="42" rx="12" fill="#2a3755"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img">
+  <title>DJ CDJ close-up with mixer and LED lighting</title>
+  <defs>
+    <linearGradient id="g5bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a0812"/><stop offset="1" stop-color="#12101c"/></linearGradient>
+    <radialGradient id="g5platter" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#303050"/><stop offset="0.7" stop-color="#1c1a30"/><stop offset="1" stop-color="#0e0c20"/>
+    </radialGradient>
+    <radialGradient id="g5hub" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#a0a8c0"/><stop offset="1" stop-color="#606880"/></radialGradient>
+    <filter id="g5glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="g5ledglow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+  <rect width="800" height="520" fill="url(#g5bg)"/>
+  <!-- Ambient neon leakage top -->
+  <rect x="0" y="0" width="800" height="80" fill="#6020c0" opacity="0.08"/>
+  <rect x="0" y="0" width="400" height="100" fill="#c020a0" opacity="0.06"/>
+  <rect x="400" y="0" width="400" height="100" fill="#0080c0" opacity="0.06"/>
+  <!-- CDJ LEFT - body -->
+  <rect x="20" y="60" width="310" height="250" rx="10" fill="#1a1828" stroke="#2a2838" stroke-width="2"/>
+  <!-- Jog wheel left platter -->
+  <circle cx="170" cy="195" r="98" fill="url(#g5platter)" stroke="#303048" stroke-width="3"/>
+  <!-- Platter rings (etched lines) -->
+  <circle cx="170" cy="195" r="88" fill="none" stroke="#2a2840" stroke-width="1.5"/>
+  <circle cx="170" cy="195" r="74" fill="none" stroke="#2a2840" stroke-width="1.2"/>
+  <circle cx="170" cy="195" r="60" fill="none" stroke="#2a2840" stroke-width="1"/>
+  <circle cx="170" cy="195" r="46" fill="none" stroke="#303050" stroke-width="1"/>
+  <!-- Grip dots on platter -->
+  <circle cx="170" cy="100" r="5" fill="#404060" opacity="0.8"/>
+  <circle cx="248" cy="133" r="5" fill="#404060" opacity="0.8"/>
+  <circle cx="258" cy="210" r="5" fill="#404060" opacity="0.8"/>
+  <circle cx="218" cy="278" r="5" fill="#404060" opacity="0.8"/>
+  <circle cx="122" cy="278" r="5" fill="#404060" opacity="0.8"/>
+  <circle cx="82" cy="210" r="5" fill="#404060" opacity="0.8"/>
+  <circle cx="92" cy="133" r="5" fill="#404060" opacity="0.8"/>
+  <!-- Hub center -->
+  <circle cx="170" cy="195" r="24" fill="url(#g5hub)"/>
+  <circle cx="170" cy="195" r="14" fill="#202038"/>
+  <circle cx="170" cy="195" r="5" fill="#8090b0"/>
+  <!-- Display screen left CDJ -->
+  <rect x="218" y="68" width="102" height="62" rx="5" fill="#050510" stroke="#1a1828" stroke-width="1.5"/>
+  <!-- Waveform display -->
+  <rect x="223" y="73" width="92" height="52" rx="3" fill="#03080f"/>
+  <path d="M225 99 L232 94 L238 104 L247 88 L255 108 L263 92 L270 98 L277 90 L284 102 L290 96 L295 99 L300 93 L308 99 L312 99" fill="none" stroke="#00d8a0" stroke-width="1.5"/>
+  <rect x="225" y="99" width="87" height="1" fill="#00d8a0" opacity="0.3"/>
+  <rect x="269" y="72" width="1.5" height="52" fill="#00d8a0" opacity="0.5"/>
+  <text x="226" y="84" font-family="monospace" font-size="7" fill="#009090">142.0 BPM</text>
+  <text x="226" y="122" font-family="monospace" font-size="6" fill="#005050">-0:34</text>
+  <!-- CDJ left buttons row -->
+  <rect x="34" y="280" width="290" height="18" rx="4" fill="#141222"/>
+  <circle cx="54" cy="289" r="5" fill="#c03838"/><circle cx="74" cy="289" r="5" fill="#e0a020"/><circle cx="94" cy="289" r="5" fill="#20c040"/>
+  <circle cx="120" cy="289" r="5" fill="#2060e0"/><circle cx="140" cy="289" r="5" fill="#8040e0"/>
+  <rect x="165" y="284" width="22" height="10" rx="3" fill="#304060"/>
+  <rect x="195" y="284" width="22" height="10" rx="3" fill="#304060"/>
+  <rect x="225" y="284" width="22" height="10" rx="3" fill="#304060"/>
+  <circle cx="270" cy="289" r="5" fill="#40a0e0"/><circle cx="290" cy="289" r="5" fill="#40a0e0"/>
+  <!-- CDJ LEFT LED strip (top) -->
+  <rect x="22" y="60" width="306" height="4" rx="2" fill="#ff3090" filter="url(#g5ledglow)"/>
+  <rect x="22" y="60" width="306" height="2" rx="2" fill="#ff80c0" opacity="0.9" filter="url(#g5ledglow)"/>
+  <!-- CDJ RIGHT - body -->
+  <rect x="470" y="60" width="310" height="250" rx="10" fill="#1a1828" stroke="#2a2838" stroke-width="2"/>
+  <!-- Jog wheel right platter -->
+  <circle cx="630" cy="195" r="98" fill="url(#g5platter)" stroke="#303048" stroke-width="3"/>
+  <circle cx="630" cy="195" r="88" fill="none" stroke="#2a2840" stroke-width="1.5"/>
+  <circle cx="630" cy="195" r="74" fill="none" stroke="#2a2840" stroke-width="1.2"/>
+  <circle cx="630" cy="195" r="60" fill="none" stroke="#2a2840" stroke-width="1"/>
+  <circle cx="630" cy="195" r="46" fill="none" stroke="#303050" stroke-width="1"/>
+  <circle cx="630" cy="100" r="5" fill="#404060" opacity="0.8"/>
+  <circle cx="708" cy="133" r="5" fill="#404060" opacity="0.8"/>
+  <circle cx="718" cy="210" r="5" fill="#404060" opacity="0.8"/>
+  <circle cx="678" cy="278" r="5" fill="#404060" opacity="0.8"/>
+  <circle cx="582" cy="278" r="5" fill="#404060" opacity="0.8"/>
+  <circle cx="542" cy="210" r="5" fill="#404060" opacity="0.8"/>
+  <circle cx="552" cy="133" r="5" fill="#404060" opacity="0.8"/>
+  <circle cx="630" cy="195" r="24" fill="url(#g5hub)"/>
+  <circle cx="630" cy="195" r="14" fill="#202038"/>
+  <circle cx="630" cy="195" r="5" fill="#8090b0"/>
+  <!-- Display screen right CDJ -->
+  <rect x="480" y="68" width="102" height="62" rx="5" fill="#050510" stroke="#1a1828" stroke-width="1.5"/>
+  <rect x="485" y="73" width="92" height="52" rx="3" fill="#03080f"/>
+  <path d="M487 99 L494 104 L500 94 L509 108 L515 88 L522 98 L530 90 L537 102 L544 96 L549 99 L556 93 L563 99 L570 95 L575 99" fill="none" stroke="#00d8a0" stroke-width="1.5"/>
+  <rect x="487" y="99" width="87" height="1" fill="#00d8a0" opacity="0.3"/>
+  <rect x="531" y="72" width="1.5" height="52" fill="#00d8a0" opacity="0.5"/>
+  <text x="487" y="84" font-family="monospace" font-size="7" fill="#009090">142.0 BPM</text>
+  <text x="487" y="122" font-family="monospace" font-size="6" fill="#005050">+0:08</text>
+  <!-- CDJ right buttons -->
+  <rect x="484" y="280" width="290" height="18" rx="4" fill="#141222"/>
+  <circle cx="504" cy="289" r="5" fill="#c03838"/><circle cx="524" cy="289" r="5" fill="#e0a020"/><circle cx="544" cy="289" r="5" fill="#20c040"/>
+  <circle cx="570" cy="289" r="5" fill="#2060e0"/><circle cx="590" cy="289" r="5" fill="#8040e0"/>
+  <rect x="615" y="284" width="22" height="10" rx="3" fill="#304060"/>
+  <rect x="645" y="284" width="22" height="10" rx="3" fill="#304060"/>
+  <rect x="675" y="284" width="22" height="10" rx="3" fill="#304060"/>
+  <circle cx="720" cy="289" r="5" fill="#40a0e0"/><circle cx="740" cy="289" r="5" fill="#40a0e0"/>
+  <!-- CDJ RIGHT LED strip -->
+  <rect x="472" y="60" width="306" height="4" rx="2" fill="#30a0ff" filter="url(#g5ledglow)"/>
+  <rect x="472" y="60" width="306" height="2" rx="2" fill="#80c8ff" opacity="0.9" filter="url(#g5ledglow)"/>
+  <!-- MIXER CENTER -->
+  <rect x="316" y="80" width="168" height="310" rx="8" fill="#16141f" stroke="#242232" stroke-width="2"/>
+  <!-- Mixer LED VU meters -->
+  <rect x="330" y="88" width="16" height="120" rx="3" fill="#0a0914"/>
+  <rect x="330" y="196" width="16" height="12" fill="#20e040" opacity="0.9"/>
+  <rect x="330" y="183" width="16" height="12" fill="#20e040" opacity="0.9"/>
+  <rect x="330" y="170" width="16" height="12" fill="#20e040" opacity="0.9"/>
+  <rect x="330" y="157" width="16" height="12" fill="#a0e020" opacity="0.9"/>
+  <rect x="330" y="144" width="16" height="12" fill="#e0e020" opacity="0.8"/>
+  <rect x="330" y="131" width="16" height="12" fill="#e07020" opacity="0.7"/>
+  <rect x="330" y="118" width="16" height="12" fill="#e03020" opacity="0.6"/>
+  <rect x="454" y="88" width="16" height="120" rx="3" fill="#0a0914"/>
+  <rect x="454" y="196" width="16" height="12" fill="#20e040" opacity="0.9"/>
+  <rect x="454" y="183" width="16" height="12" fill="#20e040" opacity="0.9"/>
+  <rect x="454" y="170" width="16" height="12" fill="#20e040" opacity="0.9"/>
+  <rect x="454" y="157" width="16" height="12" fill="#a0e020" opacity="0.9"/>
+  <rect x="454" y="144" width="16" height="12" fill="#e0e020" opacity="0.8"/>
+  <rect x="454" y="131" width="16" height="12" fill="#e07020" opacity="0.7"/>
+  <!-- Mixer channel faders -->
+  <rect x="347" y="100" width="12" height="96" rx="3" fill="#0c0a18"/>
+  <rect x="343" y="152" width="20" height="14" rx="3" fill="#5060a0"/>
+  <rect x="441" y="100" width="12" height="96" rx="3" fill="#0c0a18"/>
+  <rect x="437" y="152" width="20" height="14" rx="3" fill="#5060a0"/>
+  <!-- Crossfader -->
+  <rect x="330" y="280" width="140" height="12" rx="4" fill="#0a0914"/>
+  <rect x="375" y="276" width="28" height="20" rx="3" fill="#3050a0" stroke="#5070c0" stroke-width="1"/>
+  <!-- Mixer EQ knobs -->
+  <circle cx="370" cy="240" r="10" fill="#202030" stroke="#404068" stroke-width="2"/>
+  <line x1="370" y1="232" x2="370" y2="237" stroke="#8090c0" stroke-width="2"/>
+  <circle cx="400" cy="240" r="10" fill="#202030" stroke="#404068" stroke-width="2"/>
+  <line x1="403" y1="233" x2="400" y2="237" stroke="#8090c0" stroke-width="2"/>
+  <circle cx="430" cy="240" r="10" fill="#202030" stroke="#404068" stroke-width="2"/>
+  <line x1="430" y1="252" x2="430" y2="247" stroke="#8090c0" stroke-width="2"/>
+  <!-- Mixer LED strip-->
+  <rect x="318" y="80" width="164" height="3" rx="1.5" fill="#a000ff" filter="url(#g5ledglow)"/>
+  <!-- Booth table (DJ booth front edge) -->
+  <rect x="0" y="315" width="800" height="38" rx="0" fill="#1c1830" stroke="#282440" stroke-width="1"/>
+  <!-- Front LED strip on booth -->
+  <rect x="0" y="315" width="800" height="5" rx="0" fill="#00a0ff" opacity="0.7" filter="url(#g5ledglow)"/>
+  <rect x="0" y="316" width="400" height="3" fill="#ff3090" opacity="0.5" filter="url(#g5ledglow)"/>
+  <rect x="400" y="316" width="400" height="3" fill="#00d0ff" opacity="0.5" filter="url(#g5ledglow)"/>
+  <!-- Floor dark reflection -->
+  <rect x="0" y="353" width="800" height="167" fill="#080610"/>
+  <rect x="0" y="353" width="800" height="40" fill="#0a0820" opacity="0.8"/>
 </svg>

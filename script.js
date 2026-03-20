@@ -11,6 +11,34 @@ const themeButtons = document.querySelectorAll('.theme-btn');
 
 const validThemes = ['light', 'dark', 'effects'];
 
+const PARTICLE_COLORS = ['#db4e3e', '#ff8f4f', '#01796f', '#9c6ff5', '#ff6f91', '#ffcc44'];
+
+const createEffectsParticles = () => {
+  const overlay = document.createElement('div');
+  overlay.className = 'effects-overlay';
+  for (let i = 0; i < 48; i++) {
+    const p = document.createElement('div');
+    p.className = 'effects-particle';
+    const size = Math.random() * 7 + 3;
+    const color = PARTICLE_COLORS[Math.floor(Math.random() * PARTICLE_COLORS.length)];
+    p.style.cssText = [
+      `left:${Math.random() * 100}%`,
+      `bottom:${Math.random() * 25}%`,
+      `width:${size}px`,
+      `height:${size}px`,
+      `background:${color}`,
+      `--duration:${(Math.random() * 10 + 7).toFixed(1)}s`,
+      `--delay:${(Math.random() * 12).toFixed(1)}s`,
+    ].join(';');
+    overlay.appendChild(p);
+  }
+  document.body.appendChild(overlay);
+};
+
+const removeEffectsParticles = () => {
+  document.querySelector('.effects-overlay')?.remove();
+};
+
 const applyTheme = (theme) => {
   const nextTheme = validThemes.includes(theme) ? theme : 'light';
   document.documentElement.setAttribute('data-theme', nextTheme);
@@ -21,6 +49,13 @@ const applyTheme = (theme) => {
     button.classList.toggle('is-active', isActive);
     button.setAttribute('aria-pressed', String(isActive));
   });
+
+  if (nextTheme === 'effects') {
+    removeEffectsParticles();
+    createEffectsParticles();
+  } else {
+    removeEffectsParticles();
+  }
 };
 
 const initialTheme = localStorage.getItem('eventlocation-theme') || 'light';

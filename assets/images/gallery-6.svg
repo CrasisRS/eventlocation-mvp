@@ -1,12 +1,109 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
-  <rect width="800" height="520" fill="#eef4f8"/>
-  <rect x="40" y="42" width="720" height="436" rx="24" fill="#fff" stroke="#d4dfe8"/>
-  <rect x="105" y="95" width="590" height="150" rx="14" fill="#d8e5f0"/>
-  <rect x="130" y="282" width="140" height="160" rx="14" fill="#f5fbff" stroke="#d2dfeb"/>
-  <rect x="295" y="282" width="140" height="160" rx="14" fill="#f5fbff" stroke="#d2dfeb"/>
-  <rect x="460" y="282" width="140" height="160" rx="14" fill="#f5fbff" stroke="#d2dfeb"/>
-  <rect x="170" y="322" width="60" height="80" rx="10" fill="#8da4bb"/>
-  <rect x="335" y="322" width="60" height="80" rx="10" fill="#8da4bb"/>
-  <rect x="500" y="322" width="60" height="80" rx="10" fill="#8da4bb"/>
-  <rect x="300" y="140" width="200" height="58" rx="12" fill="#4b6789"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img">
+  <title>Networking reception with poseur tables</title>
+  <defs>
+    <linearGradient id="g6bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4ede4"/><stop offset="1" stop-color="#e8ddd2"/></linearGradient>
+    <linearGradient id="g6wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c8b8a8"/><stop offset="1" stop-color="#b8a898"/></linearGradient>
+    <linearGradient id="g6floor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d8ccc0"/><stop offset="1" stop-color="#c8beb2"/></linearGradient>
+    <filter id="g6sh"><feGaussianBlur stdDeviation="4"/></filter>
+    <radialGradient id="g6lamp" cx="50%" cy="0%" r="100%"><stop offset="0" stop-color="#fff8e8" stop-opacity="0.5"/><stop offset="1" stop-color="#ffe8c0" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#g6bg)"/>
+  <!-- Wall -->
+  <rect x="0" y="0" width="800" height="280" fill="url(#g6wall)"/>
+  <!-- Wall panels / wainscoting -->
+  <rect x="30" y="30" width="180" height="200" rx="5" fill="none" stroke="#a89888" stroke-width="2"/>
+  <rect x="230" y="30" width="130" height="200" rx="5" fill="none" stroke="#a89888" stroke-width="2"/>
+  <rect x="370" y="30" width="130" height="200" rx="5" fill="none" stroke="#a89888" stroke-width="2"/>
+  <rect x="510" y="30" width="180" height="200" rx="5" fill="none" stroke="#a89888" stroke-width="2"/>
+  <rect x="700" y="30" width="80" height="200" rx="5" fill="none" stroke="#a89888" stroke-width="2"/>
+  <!-- Chair rail -->
+  <rect x="0" y="230" width="800" height="8" rx="0" fill="#a08870"/>
+  <!-- Floor -->
+  <rect x="0" y="300" width="800" height="220" fill="url(#g6floor)"/>
+  <!-- Floor planks -->
+  <line x1="0" y1="340" x2="800" y2="340" stroke="#b8ac9e" stroke-width="1.5" opacity="0.7"/>
+  <line x1="0" y1="380" x2="800" y2="380" stroke="#b8ac9e" stroke-width="1.5" opacity="0.7"/>
+  <line x1="0" y1="420" x2="800" y2="420" stroke="#b8ac9e" stroke-width="1.5" opacity="0.7"/>
+  <line x1="0" y1="460" x2="800" y2="460" stroke="#b8ac9e" stroke-width="1.5" opacity="0.7"/>
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#b8ac9e" stroke-width="1.5" opacity="0.7"/>
+  <!-- Ceiling pendant lamps -->
+  <line x1="160" y1="0" x2="160" y2="28" stroke="#808080" stroke-width="2"/>
+  <ellipse cx="160" cy="34" rx="20" ry="12" fill="#d8d0c8" stroke="#b8b0a8"/>
+  <ellipse cx="160" cy="34" rx="15" ry="8" fill="#fff8f0" opacity="0.9"/>
+  <ellipse cx="160" cy="180" rx="100" ry="60" fill="url(#g6lamp)" filter="url(#g6sh)" opacity="0.6"/>
+  <line x1="420" y1="0" x2="420" y2="28" stroke="#808080" stroke-width="2"/>
+  <ellipse cx="420" cy="34" rx="20" ry="12" fill="#d8d0c8" stroke="#b8b0a8"/>
+  <ellipse cx="420" cy="34" rx="15" ry="8" fill="#fff8f0" opacity="0.9"/>
+  <ellipse cx="420" cy="180" rx="100" ry="60" fill="url(#g6lamp)" filter="url(#g6sh)" opacity="0.6"/>
+  <line x1="660" y1="0" x2="660" y2="28" stroke="#808080" stroke-width="2"/>
+  <ellipse cx="660" cy="34" rx="20" ry="12" fill="#d8d0c8" stroke="#b8b0a8"/>
+  <ellipse cx="660" cy="34" rx="15" ry="8" fill="#fff8f0" opacity="0.9"/>
+  <ellipse cx="660" cy="180" rx="100" ry="60" fill="url(#g6lamp)" filter="url(#g6sh)" opacity="0.6"/>
+  <!-- POSEUR TABLE 1 (left) -->
+  <rect x="144" y="298" width="88" height="10" rx="5" fill="#c0a870" stroke="#a08850" stroke-width="1"/>
+  <rect x="176" y="196" width="24" height="112" rx="5" fill="#a88840" stroke="#8a6828" stroke-width="1"/>
+  <rect x="144" y="192" width="88" height="14" rx="7" fill="#d4b878" stroke="#b09050" stroke-width="1.5"/>
+  <!-- Glasses on table 1 -->
+  <path d="M175 196 Q177 206 175 212 L172 218 L178 218 L175 212" fill="none" stroke="#d0e8f0" stroke-width="1.5"/>
+  <path d="M192 196 Q194 206 192 212 L189 218 L195 218 L192 212" fill="none" stroke="#d0e8f0" stroke-width="1.5"/>
+  <!-- Small plates/canape on table 1 -->
+  <circle cx="182" cy="199" r="8" fill="#e8e0d4" stroke="#d0c8b8" stroke-width="1"/>
+  <!-- PERSON 1 (left table left side) - silhouette -->
+  <ellipse cx="132" cy="248" rx="16" ry="20" fill="#7a6858"/>
+  <rect x="118" y="265" width="28" height="60" rx="8" fill="#686058"/>
+  <rect x="118" y="318" width="12" height="34" rx="4" fill="#604c3c"/>
+  <rect x="134" y="318" width="12" height="34" rx="4" fill="#604c3c"/>
+  <!-- Left arm reaching to table -->
+  <rect x="144" y="275" width="30" height="10" rx="5" fill="#7a6858" transform="rotate(-20,144,275)"/>
+  <!-- PERSON 2 (left table right side) - silhouette -->
+  <ellipse cx="246" cy="246" rx="16" ry="20" fill="#6a5848"/>
+  <rect x="232" y="263" width="28" height="60" rx="8" fill="#5a4838"/>
+  <rect x="232" y="316" width="12" height="36" rx="4" fill="#503c2c"/>
+  <rect x="248" y="316" width="12" height="36" rx="4" fill="#503c2c"/>
+  <!-- POSEUR TABLE 2 (center) -->
+  <rect x="374" y="298" width="88" height="10" rx="5" fill="#c0a870" stroke="#a08850" stroke-width="1"/>
+  <rect x="406" y="196" width="24" height="112" rx="5" fill="#a88840" stroke="#8a6828" stroke-width="1"/>
+  <rect x="374" y="192" width="88" height="14" rx="7" fill="#d4b878" stroke="#b09050" stroke-width="1.5"/>
+  <!-- Glasses on table 2 -->
+  <path d="M400 196 Q402 206 400 212 L397 218 L403 218 L400 212" fill="none" stroke="#d0e8f0" stroke-width="1.5"/>
+  <path d="M414 196 Q416 206 414 212 L411 218 L417 218 L414 212" fill="none" stroke="#d0e8f0" stroke-width="1.5"/>
+  <path d="M428 196 Q430 206 428 212 L425 218 L431 218 L428 212" fill="none" stroke="#d0e8f0" stroke-width="1.5"/>
+  <!-- Small plant on table -->
+  <ellipse cx="388" cy="196" rx="10" ry="6" fill="#488038"/>
+  <!-- PERSON 3 (center table) -->
+  <ellipse cx="355" cy="244" rx="15" ry="19" fill="#8a7060"/>
+  <rect x="342" y="260" width="26" height="58" rx="8" fill="#787060"/>
+  <rect x="342" y="312" width="11" height="32" rx="4" fill="#6a5848"/>
+  <rect x="357" y="312" width="11" height="32" rx="4" fill="#6a5848"/>
+  <!-- PERSON 4 (center table other side) -->
+  <ellipse cx="482" cy="244" rx="15" ry="19" fill="#786858"/>
+  <rect x="469" y="260" width="26" height="58" rx="8" fill="#686058"/>
+  <rect x="469" y="312" width="11" height="32" rx="4" fill="#5a4838"/>
+  <rect x="484" y="312" width="11" height="32" rx="4" fill="#5a4838"/>
+  <!-- POSEUR TABLE 3 (right) -->
+  <rect x="596" y="298" width="88" height="10" rx="5" fill="#c0a870" stroke="#a08850" stroke-width="1"/>
+  <rect x="628" y="196" width="24" height="112" rx="5" fill="#a88840" stroke="#8a6828" stroke-width="1"/>
+  <rect x="596" y="192" width="88" height="14" rx="7" fill="#d4b878" stroke="#b09050" stroke-width="1.5"/>
+  <!-- Glasses on table 3 -->
+  <path d="M614 196 Q616 206 614 212 L611 218 L617 218 L614 212" fill="none" stroke="#d0e8f0" stroke-width="1.5"/>
+  <path d="M650 196 Q652 206 650 212 L647 218 L653 218 L650 212" fill="none" stroke="#d0e8f0" stroke-width="1.5"/>
+  <!-- PERSON 5 (right table) -->
+  <ellipse cx="574" cy="243" rx="15" ry="19" fill="#8a7868"/>
+  <rect x="561" y="259" width="26" height="58" rx="8" fill="#787060"/>
+  <rect x="561" y="311" width="11" height="32" rx="4" fill="#6a5848"/>
+  <rect x="576" y="311" width="11" height="32" rx="4" fill="#6a5848"/>
+  <!-- PERSON 6 (right table far side) -->
+  <ellipse cx="706" cy="245" rx="15" ry="19" fill="#705f50"/>
+  <rect x="693" y="261" width="26" height="58" rx="8" fill="#605848"/>
+  <rect x="693" y="313" width="11" height="32" rx="4" fill="#504030"/>
+  <rect x="708" y="313" width="11" height="32" rx="4" fill="#504030"/>
+  <!-- Background conversation group -->
+  <ellipse cx="70" cy="210" rx="12" ry="15" fill="#9a8878" opacity="0.6"/>
+  <rect x="60" y="223" width="20" height="44" rx="7" fill="#888070" opacity="0.6"/>
+  <ellipse cx="100" cy="208" rx="12" ry="15" fill="#888070" opacity="0.6"/>
+  <rect x="90" y="221" width="20" height="44" rx="7" fill="#787060" opacity="0.6"/>
+  <ellipse cx="730" cy="212" rx="12" ry="15" fill="#9a8878" opacity="0.6"/>
+  <rect x="720" y="225" width="20" height="44" rx="7" fill="#888070" opacity="0.6"/>
+  <ellipse cx="760" cy="208" rx="12" ry="15" fill="#888070" opacity="0.6"/>
+  <rect x="750" y="221" width="20" height="44" rx="7" fill="#787060" opacity="0.6"/>
 </svg>

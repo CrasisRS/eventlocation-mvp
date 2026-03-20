@@ -7,7 +7,7 @@
       name="description"
       content="Beispiel-MVP einer modernen Eventlocation-Website mit barrierearmem Design und deutschen Rechtstext-Platzhaltern."
     />
-    <title>Atelier Nordlicht | Eventlocation in Hamburg</title>
+    <title>Atelier Nordlicht | Weddings, Parties und Business Events</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -40,6 +40,7 @@
 
         <nav id="hauptnavigation" class="main-nav" aria-label="Hauptnavigation">
           <ul>
+            <li><a href="#formate">Formate</a></li>
             <li><a href="#leistungen">Leistungen</a></li>
             <li><a href="#raeume">Raeume</a></li>
             <li><a href="#galerie">Galerie</a></li>
@@ -47,6 +48,18 @@
             <li><a href="#anfrage" class="nav-cta">Anfrage</a></li>
           </ul>
         </nav>
+
+        <div class="theme-switcher" role="group" aria-label="Design-Thema">
+          <button class="theme-btn is-active" type="button" data-theme-value="light" aria-pressed="true">
+            Light
+          </button>
+          <button class="theme-btn" type="button" data-theme-value="dark" aria-pressed="false">
+            Dark
+          </button>
+          <button class="theme-btn" type="button" data-theme-value="effects" aria-pressed="false">
+            Effects
+          </button>
+        </div>
       </div>
     </header>
 
@@ -56,11 +69,12 @@
         <div class="container hero-grid">
           <div class="hero-copy">
             <p class="eyebrow">Eventlocation in Hamburg Speicherstadt</p>
-            <h1 id="hero-title">Feiern mit Charakter, Licht und urbanem Flair.</h1>
+            <h1 id="hero-title">Eine Location, drei Stimmungen: Wedding, Party, Business.</h1>
             <p>
               Das Atelier Nordlicht ist eine wandelbare Eventlocation fuer Hochzeiten,
-              Firmenfeiern und kulturelle Formate. Dieses Projekt ist ein
-              klickbarer MVP mit Beispielinhalten fuer die Kundenpraesentation.
+              Geburtstage, Corporate-Events und kreative Nachtformate. Diese Demo
+              zeigt moderne Layouts, verschiedene Design-Themen und Beispielbilder
+              fuer mehrere Nutzungsszenarien.
             </p>
             <div class="hero-actions">
               <a class="btn btn-primary" href="#anfrage">Termin anfragen</a>
@@ -70,17 +84,53 @@
               <li>Bis zu 220 Personen</li>
               <li>Barrierearmer Zugang</li>
               <li>U-Bahn in 4 Minuten</li>
+              <li>3 Style-Themes live umschaltbar</li>
             </ul>
           </div>
 
           <figure class="hero-visual" id="virtuell">
             <img
               src="./assets/images/location-main.svg"
-              alt="Illustration der Eventhalle mit Lichtinstallation und gedeckten Tischen"
+              alt="Moderne Eventhalle mit wandelbarer Lichtstimmung fuer verschiedene Veranstaltungsarten"
               loading="lazy"
             />
-            <figcaption>Beispielgrafik: Nordhalle im Abend-Setup.</figcaption>
+            <figcaption>Hero-Visual: wandelbares Setup fuer Daylight, Gala und Club-Night.</figcaption>
           </figure>
+        </div>
+      </section>
+
+      <section id="formate" class="section section-showcase" aria-labelledby="formate-title">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Mehrzweck-Location</p>
+            <h2 id="formate-title">Beispiel-Formate mit eigenen Atmosphaeren</h2>
+          </div>
+          <div class="cards-3 purpose-grid">
+            <article class="feature-card purpose-card">
+              <img src="./assets/images/format-wedding.svg" alt="Wedding Dinner mit Blumen und Kerzenlicht" loading="lazy" />
+              <h3>Weddings</h3>
+              <p>
+                Elegante Tischbilder, freie Trauung im Innenhof und ruhige Lichtdramaturgie
+                fuer emotionale Momente.
+              </p>
+            </article>
+            <article class="feature-card purpose-card">
+              <img src="./assets/images/format-party.svg" alt="Party-Setup mit DJ Booth und bewegtem Licht" loading="lazy" />
+              <h3>Parties</h3>
+              <p>
+                DJ Booth, Tanzflaeche und dynamisches Lichtdesign fuer Geburtstage,
+                Launches und Night Events.
+              </p>
+            </article>
+            <article class="feature-card purpose-card">
+              <img src="./assets/images/format-business.svg" alt="Business Event mit Buehne, LED Screen und Bestuhlung" loading="lazy" />
+              <h3>Business</h3>
+              <p>
+                Professionelles Setup mit Stage, Screen und klarer Wegefuehrung
+                fuer Konferenzen, Panels und Brand-Events.
+              </p>
+            </article>
+          </div>
         </div>
       </section>
 
@@ -167,7 +217,7 @@
         <div class="container">
           <div class="section-head">
             <p class="eyebrow">Eindruecke</p>
-            <h2>Galerie mit Beispielgrafiken</h2>
+            <h2>Galerie mit Beispielgrafiken fuer mehrere Eventtypen</h2>
           </div>
 
           <div class="gallery-grid" role="list" aria-label="Bildergalerie">
@@ -182,6 +232,12 @@
             </button>
             <button class="gallery-item" type="button" data-image="./assets/images/gallery-4.svg" data-caption="Trauung im Loft Deck" role="listitem">
               <img src="./assets/images/gallery-4.svg" alt="Trauungssetup mit Blumenbogen und Stuhlreihen" loading="lazy" />
+            </button>
+            <button class="gallery-item" type="button" data-image="./assets/images/gallery-5.svg" data-caption="Geburtstags-Party mit DJ und Tanzflaeche" role="listitem">
+              <img src="./assets/images/gallery-5.svg" alt="Partyraum mit DJ Pult, Lichtakzenten und Tanzflaeche" loading="lazy" />
+            </button>
+            <button class="gallery-item" type="button" data-image="./assets/images/gallery-6.svg" data-caption="Networking-Empfang fuer Business-Events" role="listitem">
+              <img src="./assets/images/gallery-6.svg" alt="Empfangsbereich mit hohen Tischen fuer Networking" loading="lazy" />
             </button>
           </div>
         </div>

@@ -1,12 +1,15 @@
-<svg width="720" height="480" viewBox="0 0 720 480" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="720" height="480" fill="#3A2F38" />
-  <rect x="55" y="55" width="610" height="370" rx="20" fill="#FAF2EA" opacity="0.2" />
-  <path d="M160 320C210 260 280 250 360 250C440 250 510 260 560 320" stroke="#FFD8A6" stroke-width="16" stroke-linecap="round" />
-  <circle cx="360" cy="250" r="22" fill="#A7E8DD" />
-  <rect x="150" y="340" width="70" height="50" rx="10" fill="#F2E9DB" />
-  <rect x="240" y="340" width="70" height="50" rx="10" fill="#F2E9DB" />
-  <rect x="330" y="340" width="70" height="50" rx="10" fill="#F2E9DB" />
-  <rect x="420" y="340" width="70" height="50" rx="10" fill="#F2E9DB" />
-  <rect x="510" y="340" width="70" height="50" rx="10" fill="#F2E9DB" />
-  <text x="360" y="96" fill="#FFF4E5" font-size="26" text-anchor="middle" font-family="Georgia, serif">Trauung Loft Deck</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <rect width="800" height="520" fill="#fbf1ea"/>
+  <rect x="40" y="42" width="720" height="436" rx="24" fill="#fff" stroke="#ead7c9"/>
+  <path d="M180 280 Q400 60 620 280" fill="none" stroke="#bc7d72" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="235" cy="230" r="20" fill="#efb38b"/>
+  <circle cx="400" cy="160" r="20" fill="#e68e7d"/>
+  <circle cx="565" cy="230" r="20" fill="#efb38b"/>
+  <rect x="145" y="320" width="510" height="120" rx="16" fill="#fff7ed" stroke="#ead7c9"/>
+  <circle cx="205" cy="380" r="24" fill="#fdf2e6" stroke="#d9bda3"/>
+  <circle cx="285" cy="380" r="24" fill="#fdf2e6" stroke="#d9bda3"/>
+  <circle cx="365" cy="380" r="24" fill="#fdf2e6" stroke="#d9bda3"/>
+  <circle cx="445" cy="380" r="24" fill="#fdf2e6" stroke="#d9bda3"/>
+  <circle cx="525" cy="380" r="24" fill="#fdf2e6" stroke="#d9bda3"/>
+  <circle cx="605" cy="380" r="24" fill="#fdf2e6" stroke="#d9bda3"/>
 </svg>

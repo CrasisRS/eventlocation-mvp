@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Wedding setup</title>
+  <desc id="desc">Wedding table arrangement with floral arch and warm candle lighting.</desc>
+  <rect width="800" height="520" fill="#fdf5ef"/>
+  <rect x="30" y="30" width="740" height="460" rx="24" fill="#fff" stroke="#edd8c7"/>
+  <rect x="90" y="90" width="620" height="120" rx="14" fill="#f5dfd6"/>
+  <circle cx="210" cy="150" r="30" fill="#f0ac9e"/>
+  <circle cx="400" cy="150" r="30" fill="#e59785"/>
+  <circle cx="590" cy="150" r="30" fill="#f0ac9e"/>
+  <path d="M190 270 Q400 80 610 270" fill="none" stroke="#c38377" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="250" cy="235" r="18" fill="#f4be8a"/>
+  <circle cx="400" cy="180" r="18" fill="#e58a7e"/>
+  <circle cx="550" cy="235" r="18" fill="#f4be8a"/>
+  <rect x="150" y="325" width="500" height="120" rx="16" fill="#fff6ec" stroke="#ecd8c7"/>
+  <circle cx="220" cy="385" r="22" fill="#fbf1e6" stroke="#d8b89b"/>
+  <circle cx="310" cy="385" r="22" fill="#fbf1e6" stroke="#d8b89b"/>
+  <circle cx="400" cy="385" r="22" fill="#fbf1e6" stroke="#d8b89b"/>
+  <circle cx="490" cy="385" r="22" fill="#fbf1e6" stroke="#d8b89b"/>
+  <circle cx="580" cy="385" r="22" fill="#fbf1e6" stroke="#d8b89b"/>
+</svg>

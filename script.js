@@ -7,6 +7,31 @@ const lightboxImage = document.getElementById('lightbox-image');
 const lightboxCaption = document.getElementById('lightbox-caption');
 const form = document.getElementById('anfrage-form');
 const formStatus = document.getElementById('form-status');
+const themeButtons = document.querySelectorAll('.theme-btn');
+
+const validThemes = ['light', 'dark', 'effects'];
+
+const applyTheme = (theme) => {
+  const nextTheme = validThemes.includes(theme) ? theme : 'light';
+  document.documentElement.setAttribute('data-theme', nextTheme);
+  localStorage.setItem('eventlocation-theme', nextTheme);
+
+  themeButtons.forEach((button) => {
+    const isActive = button.getAttribute('data-theme-value') === nextTheme;
+    button.classList.toggle('is-active', isActive);
+    button.setAttribute('aria-pressed', String(isActive));
+  });
+};
+
+const initialTheme = localStorage.getItem('eventlocation-theme') || 'light';
+applyTheme(initialTheme);
+
+themeButtons.forEach((button) => {
+  button.addEventListener('click', () => {
+    const selectedTheme = button.getAttribute('data-theme-value') || 'light';
+    applyTheme(selectedTheme);
+  });
+});
 
 if (menuToggle && mainNav) {
   menuToggle.addEventListener('click', () => {

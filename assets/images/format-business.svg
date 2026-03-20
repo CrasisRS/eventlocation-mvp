@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Business event setup</title>
+  <desc id="desc">Conference room setup with stage, screen, and seating for presentations.</desc>
+  <rect width="800" height="520" fill="#edf3f7"/>
+  <rect x="30" y="30" width="740" height="460" rx="24" fill="#fff" stroke="#d1dbe4"/>
+  <rect x="85" y="85" width="630" height="210" rx="16" fill="#1f3147"/>
+  <rect x="180" y="120" width="440" height="120" rx="10" fill="#d8e2ec"/>
+  <rect x="335" y="315" width="130" height="70" rx="10" fill="#385578"/>
+  <rect x="365" y="340" width="70" height="12" rx="6" fill="#77e2d3"/>
+  <rect x="120" y="410" width="560" height="50" rx="10" fill="#d9e3ed"/>
+  <rect x="145" y="422" width="36" height="26" rx="4" fill="#7e95af"/>
+  <rect x="193" y="422" width="36" height="26" rx="4" fill="#7e95af"/>
+  <rect x="241" y="422" width="36" height="26" rx="4" fill="#7e95af"/>
+  <rect x="289" y="422" width="36" height="26" rx="4" fill="#7e95af"/>
+  <rect x="337" y="422" width="36" height="26" rx="4" fill="#7e95af"/>
+  <rect x="385" y="422" width="36" height="26" rx="4" fill="#7e95af"/>
+  <rect x="433" y="422" width="36" height="26" rx="4" fill="#7e95af"/>
+  <rect x="481" y="422" width="36" height="26" rx="4" fill="#7e95af"/>
+  <rect x="529" y="422" width="36" height="26" rx="4" fill="#7e95af"/>
+  <rect x="577" y="422" width="36" height="26" rx="4" fill="#7e95af"/>
+</svg>

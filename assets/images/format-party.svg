@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Party setup</title>
+  <desc id="desc">Dance floor, DJ booth and colorful moving lights for celebration events.</desc>
+  <rect width="800" height="520" fill="#141725"/>
+  <rect x="30" y="30" width="740" height="460" rx="24" fill="#1d2234" stroke="#34415f"/>
+  <rect x="100" y="90" width="600" height="180" rx="14" fill="#222b43"/>
+  <polygon points="120,120 260,90 260,250" fill="#ff6e52" opacity="0.55"/>
+  <polygon points="680,120 540,90 540,250" fill="#5ce0d1" opacity="0.5"/>
+  <polygon points="400,80 460,250 340,250" fill="#ffc45d" opacity="0.45"/>
+  <rect x="280" y="300" width="240" height="90" rx="14" fill="#0d111d" stroke="#50648f"/>
+  <rect x="315" y="325" width="70" height="18" rx="9" fill="#f26f6f"/>
+  <rect x="415" y="325" width="70" height="18" rx="9" fill="#68d9d0"/>
+  <rect x="110" y="410" width="580" height="50" rx="14" fill="#273450"/>
+  <circle cx="180" cy="435" r="12" fill="#ff8f4f"/>
+  <circle cx="255" cy="435" r="12" fill="#4fe4c8"/>
+  <circle cx="330" cy="435" r="12" fill="#f8be57"/>
+  <circle cx="405" cy="435" r="12" fill="#ce9cff"/>
+  <circle cx="480" cy="435" r="12" fill="#ff8f4f"/>
+  <circle cx="555" cy="435" r="12" fill="#4fe4c8"/>
+  <circle cx="630" cy="435" r="12" fill="#f8be57"/>
+</svg>

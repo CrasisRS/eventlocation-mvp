@@ -1,0 +1,11 @@
+<svg width="720" height="480" viewBox="0 0 720 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="480" fill="#26303E" />
+  <rect x="40" y="60" width="640" height="360" rx="18" fill="#FDF7ED" opacity="0.16" />
+  <circle cx="120" cy="110" r="34" fill="#FFD7A1" />
+  <circle cx="610" cy="100" r="26" fill="#A7E8DD" />
+  <rect x="85" y="290" width="130" height="70" rx="8" fill="#F4EDE1" />
+  <rect x="235" y="290" width="130" height="70" rx="8" fill="#F4EDE1" />
+  <rect x="385" y="290" width="130" height="70" rx="8" fill="#F4EDE1" />
+  <rect x="535" y="290" width="100" height="70" rx="8" fill="#F4EDE1" />
+  <text x="360" y="70" fill="#FFF6E7" font-size="26" text-anchor="middle" font-family="Georgia, serif">Bankett-Setup</text>
+</svg>

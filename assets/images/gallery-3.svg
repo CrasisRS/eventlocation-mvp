@@ -1,0 +1,13 @@
+<svg width="720" height="480" viewBox="0 0 720 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="480" fill="#2B3B30" />
+  <rect x="40" y="60" width="640" height="360" rx="18" fill="#CEE4D0" opacity="0.35" />
+  <path d="M0 350C180 310 330 380 520 330C620 300 690 320 720 340V480H0V350Z" fill="#9EC6A1" />
+  <circle cx="140" cy="130" r="30" fill="#FFD18D" />
+  <circle cx="210" cy="110" r="24" fill="#FFE5BA" />
+  <circle cx="280" cy="130" r="20" fill="#FFC477" />
+  <rect x="120" y="300" width="70" height="40" rx="8" fill="#F7F1E6" />
+  <rect x="230" y="280" width="70" height="40" rx="8" fill="#F7F1E6" />
+  <rect x="340" y="300" width="70" height="40" rx="8" fill="#F7F1E6" />
+  <rect x="450" y="285" width="70" height="40" rx="8" fill="#F7F1E6" />
+  <text x="360" y="74" fill="#F4F9F4" font-size="26" text-anchor="middle" font-family="Georgia, serif">Innenhof Empfang</text>
+</svg>

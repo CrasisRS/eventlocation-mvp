@@ -1,0 +1,13 @@
+<svg width="720" height="480" viewBox="0 0 720 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="480" fill="#1F2C3A" />
+  <rect x="70" y="80" width="580" height="240" rx="12" fill="#16202B" />
+  <rect x="110" y="110" width="500" height="180" rx="10" fill="#0F6D6D" />
+  <rect x="70" y="340" width="580" height="80" rx="10" fill="#EFE9DD" opacity="0.75" />
+  <rect x="90" y="350" width="70" height="40" rx="6" fill="#D8D0C5" />
+  <rect x="180" y="350" width="70" height="40" rx="6" fill="#D8D0C5" />
+  <rect x="270" y="350" width="70" height="40" rx="6" fill="#D8D0C5" />
+  <rect x="360" y="350" width="70" height="40" rx="6" fill="#D8D0C5" />
+  <rect x="450" y="350" width="70" height="40" rx="6" fill="#D8D0C5" />
+  <rect x="540" y="350" width="70" height="40" rx="6" fill="#D8D0C5" />
+  <text x="360" y="58" fill="#F7EFE2" font-size="26" text-anchor="middle" font-family="Georgia, serif">Business Event</text>
+</svg>

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Beispiel-MVP einer modernen Eventlocation-Website mit barrierearmem Design und deutschen Rechtstext-Platzhaltern."
+    />
+    <title>Atelier Nordlicht | Eventlocation in Hamburg</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a href="#top" class="brand" aria-label="Startseite Atelier Nordlicht">
+          <span class="brand-mark" aria-hidden="true">AN</span>
+          <span class="brand-text">Atelier Nordlicht</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="hauptnavigation"
+          aria-label="Navigation einblenden"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav id="hauptnavigation" class="main-nav" aria-label="Hauptnavigation">
+          <ul>
+            <li><a href="#leistungen">Leistungen</a></li>
+            <li><a href="#raeume">Raeume</a></li>
+            <li><a href="#galerie">Galerie</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#anfrage" class="nav-cta">Anfrage</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="inhalt">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-backdrop" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Eventlocation in Hamburg Speicherstadt</p>
+            <h1 id="hero-title">Feiern mit Charakter, Licht und urbanem Flair.</h1>
+            <p>
+              Das Atelier Nordlicht ist eine wandelbare Eventlocation fuer Hochzeiten,
+              Firmenfeiern und kulturelle Formate. Dieses Projekt ist ein
+              klickbarer MVP mit Beispielinhalten fuer die Kundenpraesentation.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#anfrage">Termin anfragen</a>
+              <a class="btn btn-ghost" href="#virtuell">Virtueller Rundgang</a>
+            </div>
+            <ul class="highlights" aria-label="Standortvorteile">
+              <li>Bis zu 220 Personen</li>
+              <li>Barrierearmer Zugang</li>
+              <li>U-Bahn in 4 Minuten</li>
+            </ul>
+          </div>
+
+          <figure class="hero-visual" id="virtuell">
+            <img
+              src="./assets/images/location-main.svg"
+              alt="Illustration der Eventhalle mit Lichtinstallation und gedeckten Tischen"
+              loading="lazy"
+            />
+            <figcaption>Beispielgrafik: Nordhalle im Abend-Setup.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="Kennzahlen">
+        <div class="container stats-grid">
+          <article>
+            <p class="stat-number">950 m2</p>
+            <p class="stat-label">Gesamtflaeche</p>
+          </article>
+          <article>
+            <p class="stat-number">220</p>
+            <p class="stat-label">Max. Gaeste</p>
+          </article>
+          <article>
+            <p class="stat-number">36</p>
+            <p class="stat-label">Events pro Jahr</p>
+          </article>
+          <article>
+            <p class="stat-number">4.9/5</p>
+            <p class="stat-label">Kundenbewertung</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="leistungen" class="section">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Was wir anbieten</p>
+            <h2>Leistungen fuer ein rundes Event</h2>
+          </div>
+          <div class="cards-3">
+            <article class="feature-card">
+              <h3>Raumkonzepte</h3>
+              <p>
+                Von gesetztem Dinner bis Konzertbestuhlung: Wir entwickeln Setups,
+                die zu Zielgruppe, Dramaturgie und Budget passen.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Technik inkl. Crew</h3>
+              <p>
+                Professionelle Ton-, Licht- und Projektionstechnik mit erfahrenem
+                Team fuer einen sicheren Ablauf.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Catering-Netzwerk</h3>
+              <p>
+                Vegetarisch, Fine Dining oder Streetfood: Unsere Partner decken
+                verschiedene kulinarische Stilrichtungen ab.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="raeume" class="section section-contrast">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Flexible Zonen</p>
+            <h2>Die Raeume im Ueberblick</h2>
+          </div>
+          <div class="room-grid">
+            <article class="room-card">
+              <h3>Nordhalle</h3>
+              <p>Grossflaechig, offen, ideal fuer Galas und Konferenzen bis 220 Personen.</p>
+              <p class="meta">650 m2 | Bühne 8 x 4 m | Tageslicht</p>
+            </article>
+            <article class="room-card">
+              <h3>Loft Deck</h3>
+              <p>Ruhiger Bereich fuer Workshops, VIP-Lounges oder standesamtliche Momente.</p>
+              <p class="meta">190 m2 | Akustikdecke | Smart Screen</p>
+            </article>
+            <article class="room-card">
+              <h3>Innenhof</h3>
+              <p>Geschuetzte Outdoor-Atmosphaere fuer Empfang, Free Trauung oder Food Stations.</p>
+              <p class="meta">110 m2 | Begruente Wand | Wetterschutz</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="galerie" class="section">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Eindruecke</p>
+            <h2>Galerie mit Beispielgrafiken</h2>
+          </div>
+
+          <div class="gallery-grid" role="list" aria-label="Bildergalerie">
+            <button class="gallery-item" type="button" data-image="./assets/images/gallery-1.svg" data-caption="Bankett-Setup mit warmem Licht" role="listitem">
+              <img src="./assets/images/gallery-1.svg" alt="Bankett-Setup mit gedeckten Tischen" loading="lazy" />
+            </button>
+            <button class="gallery-item" type="button" data-image="./assets/images/gallery-2.svg" data-caption="Buehnenbild fuer Business-Event" role="listitem">
+              <img src="./assets/images/gallery-2.svg" alt="Buehnenbild mit LED-Wand und Sitzreihen" loading="lazy" />
+            </button>
+            <button class="gallery-item" type="button" data-image="./assets/images/gallery-3.svg" data-caption="Innenhof fuer sommerlichen Empfang" role="listitem">
+              <img src="./assets/images/gallery-3.svg" alt="Innenhof mit Lichterketten und Stehtischen" loading="lazy" />
+            </button>
+            <button class="gallery-item" type="button" data-image="./assets/images/gallery-4.svg" data-caption="Trauung im Loft Deck" role="listitem">
+              <img src="./assets/images/gallery-4.svg" alt="Trauungssetup mit Blumenbogen und Stuhlreihen" loading="lazy" />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-contrast">
+        <div class="container testimonials">
+          <div class="section-head">
+            <p class="eyebrow">Kundenstimmen</p>
+            <h2>Was Veranstaltende sagen</h2>
+          </div>
+          <blockquote>
+            "Unser Kick-off mit 180 Personen lief reibungslos. Das Team war super
+            aufmerksam und die Location sah am Abend beeindruckend aus."
+            <cite>Leonie K., Event Managerin, TechNova GmbH</cite>
+          </blockquote>
+          <blockquote>
+            "Wir wollten urban, aber warm. Genau das haben wir bekommen. Unsere
+            Gaeste sprechen heute noch von der Stimmung im Innenhof."
+            <cite>Amelie und Tom, Hochzeitspaar</cite>
+          </blockquote>
+        </div>
+      </section>
+
+      <section id="faq" class="section">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Haeufige Fragen</p>
+            <h2>FAQ</h2>
+          </div>
+          <div class="faq-list" role="list">
+            <article class="faq-item" role="listitem">
+              <h3>
+                <button type="button" aria-expanded="false">Ist die Location barrierefrei?</button>
+              </h3>
+              <div class="faq-content">
+                <p>
+                  Die wichtigsten Bereiche sind stufenlos erreichbar. Ein barrierearmes WC,
+                  taktile Leitmarkierungen und reservierbare Stellflaechen sind vorhanden.
+                </p>
+              </div>
+            </article>
+            <article class="faq-item" role="listitem">
+              <h3>
+                <button type="button" aria-expanded="false">Gibt es feste Paketpreise?</button>
+              </h3>
+              <div class="faq-content">
+                <p>
+                  Wir kalkulieren modular, damit Leistungen fair und transparent bleiben.
+                  Auf Wunsch erhalten Sie drei vergleichbare Angebotsstufen.
+                </p>
+              </div>
+            </article>
+            <article class="faq-item" role="listitem">
+              <h3>
+                <button type="button" aria-expanded="false">Kann ich eigene Dienstleister mitbringen?</button>
+              </h3>
+              <div class="faq-content">
+                <p>
+                  Ja. Wir stimmen Fremddienstleister fruehzeitig mit unserem Ablauf- und
+                  Sicherheitskonzept ab.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="anfrage" class="section section-form">
+        <div class="container form-layout">
+          <div>
+            <div class="section-head">
+              <p class="eyebrow">Kontakt</p>
+              <h2>Unverbindliche Anfrage</h2>
+            </div>
+            <p>
+              Hinterlassen Sie uns ein paar Eckdaten. Sie erhalten innerhalb von
+              24 Stunden eine erste Rueckmeldung.
+            </p>
+            <ul class="contact-list">
+              <li><strong>Telefon:</strong> +49 40 1234 5678</li>
+              <li><strong>E-Mail:</strong> kontakt@atelier-nordlicht.de</li>
+              <li><strong>Adresse:</strong> Kaiweg 12, 20457 Hamburg</li>
+            </ul>
+          </div>
+
+          <form id="anfrage-form" novalidate>
+            <div class="form-grid">
+              <label for="name">Name*</label>
+              <input id="name" name="name" type="text" required autocomplete="name" />
+
+              <label for="email">E-Mail*</label>
+              <input id="email" name="email" type="email" required autocomplete="email" />
+
+              <label for="telefon">Telefon</label>
+              <input id="telefon" name="telefon" type="tel" autocomplete="tel" />
+
+              <label for="datum">Wunschtermin*</label>
+              <input id="datum" name="datum" type="date" required />
+
+              <label for="gaeste">Anzahl Gaeste*</label>
+              <input id="gaeste" name="gaeste" type="number" min="10" max="250" required />
+
+              <label for="anlass">Anlass*</label>
+              <select id="anlass" name="anlass" required>
+                <option value="">Bitte waehlen</option>
+                <option>Hochzeit</option>
+                <option>Firmenveranstaltung</option>
+                <option>Geburtstag</option>
+                <option>Kulturformat</option>
+              </select>
+
+              <label for="nachricht">Nachricht</label>
+              <textarea id="nachricht" name="nachricht" rows="4"></textarea>
+
+              <label class="checkline" for="consent">
+                <input id="consent" name="consent" type="checkbox" required />
+                <span>
+                  Ich habe die <a href="./datenschutz.html">Datenschutzhinweise</a>
+                  gelesen und akzeptiere die Verarbeitung meiner Daten zur Anfragebearbeitung.*
+                </span>
+              </label>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Anfrage senden</button>
+            <p class="form-note">* Pflichtfelder</p>
+            <p id="form-status" class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h2>Atelier Nordlicht</h2>
+          <p>
+            Moderne Eventlocation in Hamburg. Alle Inhalte auf dieser Demo-Seite
+            sind Beispieltexte fuer eine MVP-Praesentation.
+          </p>
+        </div>
+
+        <nav aria-label="Rechtliche Links">
+          <ul>
+            <li><a href="./impressum.html">Impressum</a></li>
+            <li><a href="./datenschutz.html">Datenschutz</a></li>
+            <li><a href="./barrierefreiheit.html">Barrierefreiheit</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <dialog id="lightbox" aria-label="Galerieansicht">
+      <form method="dialog" class="lightbox-close-wrap">
+        <button class="lightbox-close" type="submit" aria-label="Ansicht schliessen">Schliessen</button>
+      </form>
+      <img id="lightbox-image" src="" alt="" />
+      <p id="lightbox-caption"></p>
+    </dialog>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
